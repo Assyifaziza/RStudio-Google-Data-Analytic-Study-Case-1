@@ -46,18 +46,21 @@ After cleaning process, now we have the appropriate data and ready to analyze it
 
  **- Member type distribution** 
 
-![Total each member type](https://github.com/Assyifaziza/RStudio-Google-Data-Analytic-Study-Case-1/assets/130541237/c36befec-11ae-4528-ab09-ee234203f758)
+![Total each member type](https://github.com/Assyifaziza/RStudio-Google-Data-Analytic-Study-Case-1/assets/130541237/3dd2323e-7a8b-4146-9c56-9de7140d37d3)
 
 Checking total for each member type, there are around 40% casual member. This shows the opportunity to gain more annual member from the casual riders, rather than collecting new customer.
 Now, lets check how casual riders and annual member use bicycle differently.
+
 
  **- Daily ride numbers**
 
 ![Daily Ride Numbers](https://github.com/Assyifaziza/RStudio-Google-Data-Analytic-Study-Case-1/assets/130541237/661ef4e2-f08d-4f61-8cf8-008bf7131f50)
 
+
  **- Hourly ride numbers**
 
  ![Hourly ride number in a week](https://github.com/Assyifaziza/RStudio-Google-Data-Analytic-Study-Case-1/assets/130541237/1c8a2baf-c2d9-45e5-81ff-5fc80baf4bc8)
+
 
   **- Monthly ride numbers**
 
@@ -67,6 +70,7 @@ Now, lets check how casual riders and annual member use bicycle differently.
  **- Seasonal ride numbers**
 
 ![Number of Rides per season](https://github.com/Assyifaziza/RStudio-Google-Data-Analytic-Study-Case-1/assets/130541237/8ad7e16c-78ad-4c94-b2b0-f8ce278a21dc)
+
 
  **- Most popular station to start**
 Most popular place in general.
