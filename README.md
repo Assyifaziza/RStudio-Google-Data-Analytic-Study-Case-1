@@ -1,4 +1,4 @@
-# RStudio: Google Data Analytic - Study Case 1
+# RStudio: Google Data Analytics - Study Case 1
 Recently, I've completed Google Data Analytics Professional by coursera. The course are both challenging and exciting at the same time. However, it is worth studying.
 The course consists of 8 chapters, which at the end of the chapter there are several case studies to solve. This article will consist a case study on business solving for a marketing team of the bike-share fictional company, Cyclistic, in Chicago.
 Approching this case study, I would choose Rstudio and Tableu for processing and analizing the data. I will explain it based on 6 step of the analysis process: **Ask, Prepare, Process, Analyze, Share & Act.**
