@@ -1,0 +1,40 @@
+install.packages('tidyverse')
+install.packages('janitor')
+install.packages("skimr")
+install.packages("dplyr")
+library('tidyverse')
+library('janitor')
+library("skimr")
+library("dplyr")
+
+##import data
+Jan22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_01.csv")
+Feb22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_02.csv")
+Mar22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_03.csv")
+Apr22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_04.csv")
+May22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_05.csv")
+Jun22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_06.csv")
+Jul22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_07.csv")
+Agt22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_08.csv")
+Sep22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_09.csv")
+Oct22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_10.csv")
+Nov22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_11.csv")
+Dec22 <- read_csv("C:/Coursera Data Analitik Google/Studi Kasus/1/Study Case divvy tripdata/2022_12.csv")
+
+##checking the structure of dataset
+str(Jan22)
+str(Feb22)
+str(Mar22)
+str(Apr22)
+str(May22)
+str(Jun22)
+str(Jul22)
+str(Agt22)
+str(Sep22)
+str(Oct22)
+str(Nov22)
+str(Dec22)
+
+##Combining data into new dataset name
+trip_df <- bind_rows(Jan22, Feb22, Mar22, Apr22, May22, Jun22, 
+                     Jul22, Agt22, Sep22, Oct22, Nov22, Dec22)
