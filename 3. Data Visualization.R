@@ -55,8 +55,3 @@ View (cleaned_trip_df %>% filter(member_casual == 'member') %>%
         arrange(desc(count)))
 
 
-##Number of Rides per Hour
-ggplot(cleaned_trip_df) +
-  geom_bar(mapping = aes(x= started_hour, fill=member_casual)) +
-  labs(x='Time(Hourly)', y='Number of Rides', title= 'Number of Rides per Hour')
-
