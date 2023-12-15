@@ -142,7 +142,6 @@ To add and convince the results I have analyzed, I also visualized it using tabl
 ## 6.	ACT
 For the last step in this analysis phase, I’ll try to answer the third question about marketing strategy. Throughout the analysis process, I would like to suggest:
 1.	Offers a discount or a special benefit for casual members who upgrade to the annual membership such as membership registration fee, free for the first month, and others.
-   e.g:
 2.	Offer exclusive benefits on weekend trips, including extended hours of use or discounted rates for weekend trips.
 3.	Launch a promotional campaign with a summer theme that highlights the advantages of annual membership, such as access to special events or exclusive summer rides.
 4.	Provide interesting content for social media, blogs, and email newsletters that show the benefits of annual membership, success stories, and testimonials.
